@@ -1,0 +1,214 @@
+.temp{
+    text-align: center;
+    background-color: blue;
+}
+
+body {
+    background-color: white;
+    overflow-y: auto;
+    height: auto;
+}
+
+.myheader{
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+    width: calc(100% - 44px);
+    margin-left: 44px;
+    z-index: 4;
+    background-color: f0f4f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #d7dee9;
+    height: 44px;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+#navbarContent{
+    background-color: white;
+}
+
+.myupperheader{
+    border-bottom: 1px solid #d7dee9;
+    background-color: #f0f4f9;
+
+}
+
+.sidebar {
+  width: 44px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  background-color: #f0f4f9;
+  z-index: 4;
+  overflow-x: hidden;
+}
+.sidebar-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar-nav .nav-item.myButton .nav-link.active {
+    background-color: burlywood !important;
+    color: black !important;
+}
+.mynavbar{
+    z-index: 3; 
+    padding: 0.5rem 1rem;
+    height: calc(100%-44px);
+    padding-top: 50px;
+    padding-left: 44px;
+    background-color: white;
+
+}
+
+.myIcon{
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 6px;
+    margin: 3px;
+}
+
+
+.mybtn{
+    background-color: burlywood;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.mybtn:hover{
+    background-color: rgb(225, 165, 87);
+}
+.main-content{
+    margin-left: 40px;
+    padding-top: 96px;
+    width: calc(100% - 40px);
+    z-index: 1;
+    overflow: visible;
+    min-height: auto;
+}
+.myrow {
+    min-height: auto; /* Remove min-vh-100 on mobile */
+}
+
+
+
+.bottom-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  gap: 12px;
+
+}
+.digital-f {
+    position: relative; /* Add this to provide a positioning context */
+}
+.digital-f::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--accent-color);
+    border-radius: 1px;
+    opacity: 0.3;
+    background-color: burlywood;
+}
+
+.mysave{
+    box-shadow: 0 1px 3px #868c9a4c;
+    border-radius: 50px;
+    height: 28px;
+    width: 110px;
+    transition: .3s;
+    justify-content: center;
+    text-decoration: none !important;
+    color: black;
+    background-color: burlywood;
+}
+.mysave:hover{
+    background-color: bisque;
+}
+.myupload:hover{
+    background-color: bisque;
+}
+.myupload{
+    box-shadow: 0 1px 3px #868c9a4c;
+    border-radius: 50px;
+    height: 28px;
+    width: 110px;
+    transition: .3s;
+    justify-content: center;
+    text-decoration: none !important;
+    color: black;
+    background-color: white;
+}
+
+.myiconbtn{
+    display: flex;
+}
+
+.btn-content{
+    background-color: burlywood;
+    color: black;
+    border-color: burlywood;
+}
+.btn-content:hover{
+    background-color: bisque !important;
+    color: black;
+    border-color: bisque;
+    border-color: bisque !important;
+    transform: scale(1.1, 1.1);
+
+}
+
+.advent-img{
+    animation: advent-img 3s ease-in-out infinite;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+@keyframes advent-img {
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+
+.myicon{
+    box-shadow: 0 1px 3px #868c9a4c;
+    border-radius: 50px;
+    height: 28px;
+    width: 40px;
+    transition: .3s;
+    justify-content: center;
+    text-decoration: none !important;
+    color: black;
+    background-color: white;
+}
+.myicon:hover{
+    background-color: bisque;
+}
+
+.myad-img{
+    height: 300px;
+    width: 300px;
+}
